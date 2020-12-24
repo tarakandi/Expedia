@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="testFlight(failed)">
+    <parameter name="firstName" value="Omar"/>
+    <parameter name="lastName" value="Faroque"/>
+    <parameter name="month" value="March"/>
+    <parameter name="gender" value="Male"/>
+    <parameter name="phone" value="6094567892"/>
+    <parameter name="origin" value="JFK"/>
+    <parameter name="destination" value="Dhaka"/>
+    <classes>
+      <class name="Flight.FlightTest">
+        <methods>
+          <include name="searchFlight" invocation-numbers="0"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="getFirstFlight"/>
+          <include name="inputPassengerInfo" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Flight.FlightTest -->
+    </classes>
+  </test> <!-- testFlight(failed) -->
+</suite> <!-- Failed suite [Suite] -->

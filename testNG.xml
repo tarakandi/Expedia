@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<test name="testFlight">
+<parameter name="origin" value="JFK"></parameter>
+<parameter name="destination" value="Dhaka"></parameter>
+<parameter name="month" value="March"></parameter>
+<parameter name="firstName" value="Omar"></parameter>
+<parameter name="lastName" value="Faroque"></parameter>
+<parameter name="phone" value="6094567892"></parameter>
+<parameter name="gender" value="Male"></parameter>
+<classes>
+<class name="Flight.FlightTest"></class>
+</classes>
+</test>
+
+
+</suite>
